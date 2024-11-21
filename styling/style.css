@@ -1,0 +1,116 @@
+*{
+    display: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    display: flex;
+    background-color: white;
+    min-width: 1370px;
+}
+#logos{
+    display: flex;
+}
+#html{
+    padding: 1.2em 0em 1em 6.5em
+}
+#css{
+    padding: 1.3em 0em 1em 5em
+}
+#javascript{
+    padding: 1.5em 0em 1em 5em
+}
+#java{
+    padding: 1em 0em 1em 5em
+}
+#comptia{
+    padding: 1em 0em 1em 5em
+}
+
+#about{
+    padding: 1.2em 11em 1.2em 11em;
+    background-color: rgb(0, 183, 255);
+    color: white;
+}
+#cv{
+    padding: 1.2em 13em 1.2em 13em;
+}
+#contact{
+    padding: 1.2em 8.5em 1.2em 9em;
+}
+header:hover{
+    cursor: pointer;
+}
+#about:hover{
+    background-color: rgb(0, 183, 255);
+    color: white
+}
+#cv:hover{
+    background-color: rgb(0, 183, 255);
+    color: white;
+}
+#contact:hover{
+    background-color: rgb(0, 183, 255);
+    color: white;
+}
+body{
+    background-color: rgb(223, 215, 215);
+    
+}
+#headerAbout{
+    border-bottom: .2em solid rgb(66, 65, 65);
+}
+#info{
+    margin: 5em 5em 0em 5em;
+}
+#text{
+    display: flex;
+}
+#summary{
+    background-color: white;
+    margin-right: 1em;
+}
+#inDepth{
+    background-color: white;
+    width: 50em;
+    min-width: 800px;
+}
+#bt{
+    padding: 3em 1em 1em 15em;
+}
+#phone{
+    display: flex;
+}
+#phone{
+    padding-left: 2em;
+    padding-top: 2em;
+}
+#phone2{
+    padding-left: 7em;
+    padding-top: 2em;
+}
+#tel{
+    padding-top: 3em;
+}
+#tel2{
+    padding-top: 3em;
+}
+#social{
+    display: flex;
+    padding-top: 1em;
+}
+#app{
+    padding-left: 4em;
+}
+#digits{
+    padding-top: 1em;
+}
+#mail{
+    display: flex;
+    padding-top: 1em;
+    padding-left: 4em;
+}
+#address{
+    padding-top: .5em;
+}
